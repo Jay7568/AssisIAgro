@@ -21,8 +21,8 @@ def process_message_from_llm(user_message):
 
         # A CORREÇÃO ESTÁ AQUI: Usamos "gemini-1.5-flash" diretamente
         # E removemos o prefixo 'models/' que a API adiciona automaticamente
-        model_name = current_app.config.get("GEMINI_MODEL", "gemini-1.5-flash")
-        model = genai.GenerativeModel(model_name)
+       # Definindo o modelo Gemini diretamente para garantir a compatibilidade
+        model = genai.GenerativeModel("gemini-1.5-flash")
 
         # Adiciona um timeout de 60 segundos para a chamada da API
         response = model.generate_content(user_message, request_options={"timeout": 60})
