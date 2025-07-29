@@ -1,0 +1,11 @@
+flask
+python-dotenv
+google-generativeai
+google-cloud-speech
+SpeechRecognition
+aiohttp
+requests
+pillow
+pydub
+deep-translator
+langdetect

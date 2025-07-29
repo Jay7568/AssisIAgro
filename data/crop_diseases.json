@@ -1,0 +1,86 @@
+{
+  "leaf_spot": {
+    "symptoms": "Brown or black spots on leaves, yellowing around spots",
+    "treatment": "Neem oil 5ml + liquid soap 2ml per liter water (orgânico) ou sulfato de cobre 2g por litro de água",
+    "prevention": "Ensure good air circulation, avoid overhead watering",
+    "organic_treatment": "Neem oil 5ml + liquid soap 2ml per liter water",
+    "cost": "₹50-100 per acre treatment"
+  },
+  "powdery_mildew": {
+    "symptoms": "White powdery coating on leaves and stems",
+    "treatment": "Para um tratamento orgânico, use bicarbonato de sódio 5g + sabão líquido 2ml por litro de água. Como alternativa, óleo de neem 5ml + sabão líquido 2ml por litro de água",
+    "prevention": "Plant in sunny locations, avoid overcrowding",
+    "organic_treatment": "Baking soda 5g + liquid soap 2ml per liter water",
+    "cost": "₹30-80 per acre treatment"
+  },
+  "root_rot": {
+    "symptoms": "Yellowing leaves, wilting despite moist soil, dark roots",
+    "treatment": "Diminua a rega e aplique canela em pó nas raízes (orgânico). Como alternativa, use tricoderma 5g por planta",
+    "prevention": "Improve drainage, don't overwater, use raised beds",
+    "organic_treatment": "Cinnamon powder around roots, reduce irrigation",
+    "cost": "₹200-400 per acre for bio-fungicide"
+  },
+  "aphid_infestation": {
+    "symptoms": "Small green/black insects on leaves, sticky honeydew",
+    "treatment": "Use óleo de neem 3ml por litro de água para um tratamento orgânico. Uma solução de sabão também funciona bem: 10ml por litro de água",
+    "prevention": "Plant marigold nearby, encourage beneficial insects",
+    "organic_treatment": "Neem oil 3ml per liter water, spray early morning",
+    "cost": "₹40-70 per acre treatment"
+  },
+  "bacterial_blight": {
+    "symptoms": "Water-soaked spots on leaves, yellow halos around spots",
+    "treatment": "Use extrato de alho (50g de alho + 1 litro de água, fervido). Remova as plantas infectadas e, se necessário, aplique hidróxido de cobre",
+    "prevention": "Use disease-free seeds, avoid overhead irrigation",
+    "organic_treatment": "Garlic extract: 50g garlic + 1 liter water, boil and spray",
+    "cost": "₹100-200 per acre treatment"
+  },
+  "whitefly_damage": {
+    "symptoms": "Tiny white flying insects, yellowing leaves, sticky honeydew",
+    "treatment": "Para um tratamento orgânico, use sabão líquido 15ml por litro de água. Armadilhas amarelas também ajudam. Use óleo de neem 5ml por litro de água como alternativa",
+    "prevention": "Remove weeds, use reflective mulch",
+    "organic_treatment": "Soap spray: 15ml liquid soap per liter water",
+    "cost": "₹60-120 per acre treatment"
+  },
+  "podridao_radicular_mandioca": {
+    "symptoms": "Murcha das folhas, amarelecimento e escurecimento das raízes",
+    "treatment": "Melhorar a drenagem do solo (orgânico) e reduzir a irrigação. Como alternativa, usar um biofungicida à base de Trichoderma spp",
+    "prevention": "Usar manivas sadias, evitar solos encharcados",
+    "organic_treatment": "Melhorar a drenagem do solo e reduzir a rega",
+    "cost": "R$ 30-80 por hectare"
+  },
+  "carvao_cana_de_acucar": {
+    "symptoms": "Crescimento de um 'chicote' preto na ponta da planta, diminuição da produção de açúcar",
+    "treatment": "Remover as plantas doentes e queimá-las (orgânico). Como alternativa, utilizar variedades de cana-de-açúcar resistentes",
+    "prevention": "Usar sementes (gemas) certificadas e variedades resistentes",
+    "organic_treatment": "Remover e queimar as plantas infectadas para evitar a propagação dos esporos",
+    "cost": "R$ 50-100 (limpeza manual)"
+  },
+  "podridao_radicular_alface": {
+    "symptoms": "Murcha da planta, raízes escuras e podres",
+    "treatment": "Melhorar a drenagem do solo (orgânico), evitar excesso de rega e usar substrato esterilizado",
+    "prevention": "Usar sementes sadias, evitar solos encharcados",
+    "organic_treatment": "Melhorar a drenagem do solo e evitar excesso de rega",
+    "cost": "R$ 30-80 por hectare"
+  },
+  "antracnose_cajueiro_mangueira": {
+    "symptoms": "Queima de folhas, necrose e manchas escuras nos frutos, botões florais e ramos",
+    "treatment": "Podar os ramos doentes (orgânico), manter o pomar limpo e aplicar extrato de alho",
+    "prevention": "Usar variedades resistentes e garantir boa circulação de ar",
+    "organic_treatment": "Poda e limpeza do pomar, aplicação de extrato de alho",
+    "cost": "R$ 50-150 por hectare"
+  },
+  "antracnose_pinha": {
+    "symptoms": "Manchas escuras nos frutos, que podem se rachar, e morte de ramos jovens",
+    "treatment": "Coletar e remover os frutos doentes do pomar (orgânico)",
+    "prevention": "Eliminar restos de frutos no chão e podar os ramos secos",
+    "organic_treatment": "Coleta e descarte de frutos e ramos doentes",
+    "cost": "R$ 20-50 (limpeza manual por hectare)"
+  },
+  "ramulose_algodao": {
+    "symptoms": "Manchas necróticas nas folhas mais novas que podem formar furos, e crescimento enrugado das folhas",
+    "treatment": "Utilizar rotação de culturas (orgânico) e variedades resistentes",
+    "prevention": "Eliminar restos de cultura do ciclo anterior",
+    "organic_treatment": "Rotação de culturas e uso de variedades resistentes",
+    "cost": "R$ 80-200 por hectare"
+  }
+}
