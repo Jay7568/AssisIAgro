@@ -9,3 +9,4 @@ pillow
 pydub
 deep-translator
 langdetect
+gunicorn
