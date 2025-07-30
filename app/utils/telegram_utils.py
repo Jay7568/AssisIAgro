@@ -19,10 +19,11 @@ def process_message_from_llm(user_message):
 
         genai.configure(api_key=gemini_api_key)
 
-        # A CORREÇÃO ESTÁ AQUI: Usamos "gemini-1.5-flash" diretamente
-        # E removemos o prefixo 'models/' que a API adiciona automaticamente
-       # Definindo o modelo Gemini diretamente para garantir a compatibilidade
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        # A CORREÇÃO ESTÁ AQUI: Definimos o modelo e a system_instruction para idioma e papel
+        model = genai.GenerativeModel(
+            "gemini-1.5-flash",
+            system_instruction="Você é um técnico de campo especializado em agricultura do Nordeste brasileiro e tecnologia agrícola. Seu objetivo é fornecer orientações práticas, dicas diretas e soluções eficientes para os desafios dos agricultores, de forma clara e acessível, sempre focado em resultados no campo e sustentabilidade. **Sempre responda em português.**"
+        )
 
         # Adiciona um timeout de 60 segundos para a chamada da API
         response = model.generate_content(user_message, request_options={"timeout": 60})
